@@ -1,7 +1,7 @@
 #declare variable for array
 array_to_sort = [4,3,78,2,0,2]
 #define method for bubble-sort
-
+def bubble_sort array_to_sort
     #cycle through the array until array is sorted in ascending order
     j = 0
     while j < (array_to_sort.length - 1) do  
@@ -23,3 +23,5 @@ array_to_sort = [4,3,78,2,0,2]
         j += 1
     end
     #print the array after it is completely sorted
+    print array_to_sort
+end
