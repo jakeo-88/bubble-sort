@@ -1,5 +1,5 @@
 #declare variable for array
-
+array_to_sort = [4,3,78,2,0,2]
 #define method for bubble-sort
 
     #cycle through the array until array is sorted in ascending order
